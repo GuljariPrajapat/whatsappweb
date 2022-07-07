@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
 .bgcolor {
     background: #00A780;
     padding-top: 10px;

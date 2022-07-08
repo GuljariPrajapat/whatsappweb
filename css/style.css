@@ -245,6 +245,8 @@ a.chatsarrow {
 .clickchatopen {
     background: url(../images/01.png);
     min-height: 650px;
+    height: 100%;
+    background-attachment: fixed;
     background-repeat: round;
 }
 .chatsclickname {

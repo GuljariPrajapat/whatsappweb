@@ -259,7 +259,9 @@ a.chatsarrow {
 .chatsfullpage {
     position: fixed;
     top: auto;
-    bottom: 0;
+    height: 7%;
+    bottom: 0px;
+    background: #e5ddd5;
     width: 100%;
     margin-bottom: 3px;
 }
@@ -275,7 +277,7 @@ a.chatsarrow {
 }
 .emoji {
     font-size: 20px;
-    color: #b1b1b1;
+    color: #757575;
     padding-left: 11px;
 }
 .microbox {
@@ -292,4 +294,16 @@ a.chatsarrow {
 .micro {
     padding-left: 16px;
     color: white;
+}
+.inputmessges {
+    border: 0;
+    padding-left: 6px;
+    font-size: 18px;
+    width: 50%;
+}
+.inputmessges:focus {
+  outline: none;
+}
+.chatsmessgesicon {
+    color: #757575;
 }

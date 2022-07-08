@@ -72,7 +72,7 @@ a:hover {
 }
 .chatname {
     width: 100%;
-} 
+}
 .name {
     font-weight: 700;
     font-size: 17px;
@@ -217,11 +217,12 @@ a:hover {
 }
 .chatsimage {
     border-radius: 40px;
-    width: 45px;
+    width: 35px;
     margin-right: 5px;
 }
 a.chatsarrow {
     color: white;
+    font-size: 15px;
 }
 .chatstitlename {
     color: white;
@@ -230,17 +231,22 @@ a.chatsarrow {
 }
 .chatsiconbar {
     float: right;
-    font-size: 17px;
+    font-size: 15px;
     padding-top: 12px;
 }
 .chatnameandicon {
     width: 80%;
+    line-height: 1;
 }
 .gorupname {
-    font-size: 13px;
+    font-size: 11px;
 }
 .clickchatopen {
     background: url(../images/01.png);
     min-height: 650px;
     background-repeat: round;
+}
+.chatsclickname {
+    font-weight: 700;
+    font-size: 15px;
 }

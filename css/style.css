@@ -70,9 +70,9 @@ a:hover {
     width: 50px;
     margin-right: 15px;
 }
-/* .chatname {
-    width: 81%;
-} */
+.chatname {
+    width: 100%;
+} 
 .name {
     font-weight: 700;
     font-size: 17px;

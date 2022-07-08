@@ -70,9 +70,9 @@ a:hover {
     width: 50px;
     margin-right: 15px;
 }
-.chatname {
+/* .chatname {
     width: 81%;
-}
+} */
 .name {
     font-weight: 700;
     font-size: 17px;
@@ -195,4 +195,52 @@ a:hover {
     color: #00a780;
     font-size: 20px;
     padding: 0px 32px 0px 33px;
+}
+.chatsclick {
+    width: 81%;
+    color: black;
+}
+.chatsclick:hover {
+    color: black;
+}
+
+.chatsbgcolor {
+    background: #00A780;
+    /* padding-top: 10px; */
+    color: white;
+    position: sticky;
+    top: -50px;
+}
+.chatsgorupbox {
+    display: flex;
+    padding: 10px 0px 5px 0px;
+}
+.chatsimage {
+    border-radius: 40px;
+    width: 45px;
+    margin-right: 5px;
+}
+a.chatsarrow {
+    color: white;
+}
+.chatstitlename {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.chatsiconbar {
+    float: right;
+    font-size: 17px;
+    padding-top: 12px;
+}
+.chatnameandicon {
+    width: 80%;
+}
+.gorupname {
+    font-size: 13px;
+}
+.clickchatopen {
+    background: url(../images/01.png);
+    min-height: 650px;
+    background-repeat: round;
 }

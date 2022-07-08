@@ -244,12 +244,52 @@ a.chatsarrow {
 }
 .clickchatopen {
     background: url(../images/01.png);
-    min-height: 650px;
+    min-height: 579px;
     height: 100%;
+    position: relative;
+    top: 55px;
     background-attachment: fixed;
     background-repeat: round;
 }
 .chatsclickname {
     font-weight: 700;
     font-size: 14px;
+}
+
+.chatsfullpage {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.texttype {
+    position: absolute;
+    background: white;
+    border-radius: 70px;
+    width: 85%;
+    height: 42px;
+    bottom: 0;
+    margin-left: 1px;
+    padding-top: 5px;
+}
+.emoji {
+    font-size: 20px;
+    color: #b1b1b1;
+    padding-left: 11px;
+}
+.microbox {
+    position: absolute;
+    background: #00a780;
+    border-radius: 70px;
+    width: 13%;
+    height: 42px;
+    bottom: 0;
+    right: 0;
+    margin-right: 2px;
+    padding-top: 8px;
+}
+.micro {
+    padding-left: 16px;
+    color: white;
 }

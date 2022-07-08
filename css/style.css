@@ -51,6 +51,10 @@ a:hover {
     color: #00a780;
     font-size: 14px;
 }
+.chatsmena:hover {
+    background: #f0f6f6;
+    cursor: pointer;
+}
 .chatsmena {
     display: flex;
     padding: 15px 0px 5px 0px;
@@ -155,4 +159,40 @@ a:hover {
 .downicon {
     font-size: 16px;
     color: #00a780;
+}
+.modal-dialog-image {
+    margin-top: 86px;
+    /* margin-left: 38px; */
+    width: fit-content;
+}
+.modalimage {
+    margin: 0;
+    padding: 0;
+}
+.zoomcontent {
+    overflow: hidden !important;
+}
+.fullsimage {
+    width: 302px;
+}
+.zoomimagetext {
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    padding: 2px 8px;
+    background: #0a0a0a33;
+}
+.zoomimageicondiv {
+    width: 100%;
+    background: white;
+    position: fixed;
+    top: 82%;
+    height: 18%;
+    padding-top: 9px;
+}
+.iconbox {
+    color: #00a780;
+    font-size: 20px;
+    padding: 0px 26px 0px 26px;
 }

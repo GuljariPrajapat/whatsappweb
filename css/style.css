@@ -205,11 +205,12 @@ a:hover {
 }
 
 .chatsbgcolor {
+    width: 100%;
     background: #00A780;
     /* padding-top: 10px; */
     color: white;
-    position: sticky;
-    top: -50px;
+    position: fixed;
+    top: 0px;
 }
 .chatsgorupbox {
     display: flex;

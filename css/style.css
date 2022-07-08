@@ -173,7 +173,7 @@ a:hover {
     overflow: hidden !important;
 }
 .fullsimage {
-    width: 302px;
+    width: 357px;
 }
 .zoomimagetext {
     width: 100%;
@@ -187,12 +187,12 @@ a:hover {
     width: 100%;
     background: white;
     position: fixed;
-    top: 82%;
-    height: 18%;
-    padding-top: 9px;
+    top: 85%;
+    height: 15%;
+    padding-top: 10px;
 }
 .iconbox {
     color: #00a780;
     font-size: 20px;
-    padding: 0px 26px 0px 26px;
+    padding: 0px 32px 0px 33px;
 }

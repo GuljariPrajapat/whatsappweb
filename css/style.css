@@ -45,7 +45,7 @@ a:hover {
 }
 .messgesicon {
     background: #ffffff;
-    padding: 0px 5px;
+    padding: 0px 6px;
     border-radius: 38px;
     text-align: center;
     color: #00a780;
@@ -211,6 +211,7 @@ a:hover {
     color: white;
     position: fixed;
     top: 0px;
+    z-index: 999;
 }
 .chatsgorupbox {
     display: flex;
@@ -274,6 +275,7 @@ a.chatsarrow {
     bottom: 0;
     margin-left: 1px;
     padding-top: 6px;
+    margin-bottom: 2px;
 }
 .emoji {
     font-size: 20px;
@@ -290,6 +292,7 @@ a.chatsarrow {
     right: 0;
     margin-right: 2px;
     padding-top: 9px;
+    margin-bottom: 2px;
 }
 .micro {
     padding-left: 16px;
@@ -306,4 +309,47 @@ a.chatsarrow {
 }
 .chatsmessgesicon {
     color: #757575;
+}
+
+.sendchatmessage1 {
+    background: #fff;
+    border-radius: 0px 10px 10px 10px;
+    padding: 10px;
+    width: 85%;
+    margin-top: 9px;
+    display: grid;
+}
+.messgessendname {
+    color: #fba802;
+    font-weight: 600;
+    font-size: 14px;
+}
+.sendmessagetime {
+    float: right;
+    font-size: 11px;
+    font-weight: 400;
+    padding-top: 7px;
+}
+.tircon {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background: white;
+    width: 10px;
+    height: 15px;
+    margin-top: 0px;
+    position: absolute;
+    left: -9px;
+}
+.chatsmessges {
+    position: absolute;
+    bottom: 54px;
+}
+.sendimage {
+    width: 60%;
+}
+.sendimagebox1 {
+    background: white;
+    display: grid;
+    width: 68%;
+    border-radius: 0px 10px 10px 10px;
+    padding: 4px;
 }

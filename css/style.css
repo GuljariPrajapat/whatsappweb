@@ -1,355 +1,151 @@
-* {
-  margin: 0;
-  padding: 0;
-  user-select: none;
-}
-.bgcolor {
-    background: #00A780;
-    padding-top: 10px;
-    color: white;
-    position: sticky;
-    top: -50px;
-}
-.topdiv {
-    margin-bottom: 15px;
-}
-.iconbar {
-    float: right;
-    font-size: 19px;
-}
-.whats {
-    font-size: 21px;
-}
-a:hover {
-    color: #b3e5df;
-    text-decoration: none;
-}
-.menudiv {
-    display: flex;
-    padding-bottom: 5px;
-}
-.camera {
-    font-size: 17px;
-    color: #B3E5DF;
-    padding-right: 10px;
-}
-.whatbtn {
-  color: #B3E5DF;
-  padding: 0px 13px 0px 10px;
-  font-weight: 600;
-}
-.active {
-    border-bottom: 3px solid;
-    padding-bottom: 6px;
-    color: white;
-}
-.messgesicon {
-    background: #ffffff;
-    padding: 0px 6px;
-    border-radius: 38px;
-    text-align: center;
-    color: #00a780;
-    font-size: 14px;
-}
-.chatsmena:hover {
-    background: #f0f6f6;
-    cursor: pointer;
-}
-.chatsmena {
-    display: flex;
-    padding: 15px 0px 5px 0px;
-}
-.image {
-    border-radius: 40px;
-    width: 50px;
-    margin-right: 15px;
-}
-.imagestatus {
-    border-radius: 40px;
-    border: 2px dashed #00a780;
-    width: 50px;
-    margin-right: 15px;
-}
-.chatname {
-    width: 100%;
-}
-.name {
-    font-weight: 700;
-    font-size: 17px;
-}
-.time {
-    float: right;
-    font-size: 12px;
-    color: #686E6F;
-}
-.time1 {
-    float: right;
-    font-size: 12px;
-    color: #2AC663;
-}
-.chatstext {
-    font-size: 14px;
-    color: #686E6F;
-}
-.messges {
-    background: #2AC663;
-    padding: 0px 7px;
-    border-radius: 38px;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    float: right;
-}
-.textbox {
-    /* overflow: hidden; */
-    height: 24px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden !important;
-}
-.fafa {
-    color: red;
-}
-.messcomm {
-    background: #00a780;
-    color: white;
-    border-radius: 50%;
-    padding: 10px 15px;
-    bottom: 25px;
-    right: 25px;
-    position: fixed;
-    z-index: 999;
-    font-size: 20px;
-}
-.messpen {
-    background: #e2ebe9;
-    color: #686e6f;
-    border-radius: 50%;
-    padding: 7px 12px;
-    bottom: 85px;
-    right: 27px;
-    position: fixed;
-    z-index: 999;
-    font-size: 20px;
-    box-shadow: 5px 3px 9px 1px #ccc;
-}
-.plus {
-    position: absolute;
-    background: #00a780;
-    border-radius: 50%;
-    border: 2px solid white;
-    padding: 0px 5px;
-    color: white;
-    margin: 25px 0px 0px 30px;
-}
-.callsicon {
-    float: right;
-    font-size: 16px;
-    color: #00a780;
-    padding-top: 15px;
-}
-.upicon {
-    font-size: 16px;
-    color: #00a780;
-}
-.errordownicon {
-    font-size: 16px;
-    color: red;
-}
-.downicon {
-    font-size: 16px;
-    color: #00a780;
-}
-.modal-dialog-image {
-    margin-top: 86px;
-    /* margin-left: 38px; */
-    width: fit-content;
-}
-.modalimage {
-    margin: 0;
-    padding: 0;
-}
-.zoomcontent {
-    overflow: hidden !important;
-}
-.fullsimage {
-    width: 357px;
-}
-.zoomimagetext {
-    width: 100%;
-    position: absolute;
-    color: white;
-    font-size: 18px;
-    padding: 2px 8px;
-    background: #0a0a0a33;
-}
-.zoomimageicondiv {
-    width: 100%;
-    background: white;
-    position: fixed;
-    top: 85%;
-    height: 15%;
-    padding-top: 11px;
-}
-.iconbox {
-    color: #00a780;
-    font-size: 20px;
-    padding: 0px 32px 0px 33px;
-}
-.chatsclick {
-    width: 81%;
-    color: black;
-}
-.chatsclick:hover {
-    color: black;
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-.chatsbgcolor {
-    width: 100%;
-    background: #00A780;
-    /* padding-top: 10px; */
-    color: white;
-    position: fixed;
-    top: 0px;
-    z-index: 999;
-}
-.chatsgorupbox {
-    display: flex;
-    padding: 10px 0px 5px 0px;
-}
-.chatsimage {
-    border-radius: 40px;
-    width: 35px;
-    margin-right: 5px;
-}
-a.chatsarrow {
-    color: white;
-    font-size: 15px;
-}
-.chatstitlename {
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-}
-.chatsiconbar {
-    float: right;
-    font-size: 15px;
-    padding-top: 12px;
-}
-.chatnameandicon {
-    width: 80%;
-    line-height: 1;
-}
-.gorupname {
-    font-size: 11px;
-}
-.clickchatopen {
-    background: url(../images/01.png);
-    min-height: 579px;
-    height: 100%;
-    position: relative;
-    top: 55px;
-    background-attachment: fixed;
-    background-repeat: round;
-}
-.chatsclickname {
-    font-weight: 700;
-    font-size: 14px;
-}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="favicon" rel="shortcut icon" href="images/02.png" type="image/png">
 
-.chatsfullpage {
-    position: fixed;
-    top: auto;
-    height: 8%;
-    bottom: 0px;
-    background: #e5ddd5;
-    width: 100%;
-}
-.texttype {
-    position: absolute;
-    background: white;
-    border-radius: 70px;
-    width: 86%;
-    height: 42px;
-    bottom: 0;
-    margin-left: 1px;
-    padding-top: 6px;
-    margin-bottom: 4px;
-}
-.emoji {
-    font-size: 20px;
-    color: #757575;
-    padding-left: 11px;
-}
-.microbox {
-    position: absolute;
-    background: #00a780;
-    border-radius: 70px;
-    width: 12%;
-    height: 42px;
-    bottom: 0;
-    right: 0;
-    margin-right: 2px;
-    padding-top: 9px;
-    margin-bottom: 4px;
-}
-.micro {
-    padding-left: 16px;
-    color: white;
-}
-.inputmessges {
-    border: 0;
-    padding-left: 6px;
-    font-size: 18px;
-    width: 57%;
-}
-.inputmessges:focus {
-  outline: none;
-}
-.chatsmessgesicon {
-    color: #757575;
-}
+    <title>WhatsApp</title>
+  </head>
+  <body>
 
-.sendchatmessage1 {
-    background: #fff;
-    border-radius: 0px 10px 10px 10px;
-    padding: 10px;
-    width: 85%;
-    margin-top: 9px;
-    display: grid;
-}
-.messgessendname {
-    color: #fba802;
-    font-weight: 600;
-    font-size: 14px;
-}
-.sendmessagetime {
-    float: right;
-    font-size: 11px;
-    font-weight: 400;
-    padding-top: 7px;
-}
-.tircon {
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-    background: white;
-    width: 10px;
-    height: 15px;
-    margin-top: 0px;
-    position: absolute;
-    left: -9px;
-}
-.chatsmessges {
-    position: relative;
-    bottom: 54px;
-    padding-top: 60px;
-}
-.sendimage {
-    width: 60%;
-}
-.sendimagebox1 {
-    background: white;
-    display: grid;
-    width: 68%;
-    border-radius: 0px 10px 10px 10px;
-    padding: 4px;
-}
+  <div class="mane">
+    <section class="chatsbgcolor">
+      <div class="container">
+        <div class="chatsgorupbox">
+          <div class="chatimage">
+            <a class="chatsarrow" href="index.html"><i class="fa fa-arrow-left"></i></a>
+            <img class="chatsimage" src="images/2.jpg" alt="">
+          </div>
+          <div class="chatnameandicon">
+            <div class="headingbox">
+              <span class="chatsclickname">Family Member</span>
+              <span class="chatsiconbar">
+                <i class="fa fa-video"></i>  &nbsp; &nbsp; <i class="fa fa-phone-alt"></i> &nbsp; &nbsp; <i class="fa fa-ellipsis-v"></i>
+              </span>
+            </div>
+            <div class="textbox">
+              <span class="gorupname">Ashok chacha, G G, Hemant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clickchatopen">
+      <div class="container">
+        <div class="chatsmessges">
+          <div class="sendimagebox">
+            <span class="tircon"></span>
+            <div class="sendimagebox1">
+              <span class="messgessendname">Rohitash Chacha</span>
+              <img class="sendimage" src="images/001.jfif" alt="">
+              <span class="sendimagetime">10:12 AM</span>
+            </div>
+          </div>
+
+          <div class="sendchatmessage">
+            <span class="tircon"></span>
+            <div class="sendchatmessage1">
+              <span class="messgessendname">Papa G</span>
+              <span class="sendtext">Good morning have a nice day 🙏🙏🌺🌺👍👍<span class="sendmessagetime">10:12 AM</span></span>
+            </div>
+          </div>
+
+          <div class="sendchatmessage">
+            <span class="tircon"></span>
+            <div class="sendchatmessage1">
+              <span class="messgessendname">M Chacha1</span>
+              <span class="sendtext">Good morning all brother have a nice day<span class="sendmessagetime">10:12 AM</span></span>
+            </div>
+          </div>
+
+          <div class="mysendmessage">
+            <span class="mysendtircon"></span>
+            <div class="mysendmessage1">
+              <span class="sendtext">Good morning all Family Member</span>
+              <span class="mysendmessagetime">10:12 AM</span>
+            </div>
+          </div>
+
+          <div class="sendchatmessage">
+            <span class="tircon"></span>
+            <div class="sendchatmessage1">
+              <span class="messgessendname">Papa G</span>
+              <span class="sendtext">Good morning have a nice day 🙏🙏🌺🌺👍👍<span class="sendmessagetime">10:12 AM</span></span>
+            </div>
+          </div>
+
+          <div class="sendchatmessage">
+            <span class="tircon"></span>
+            <div class="sendchatmessage1">
+              <span class="messgessendname">M Chacha1</span>
+              <span class="sendtext">Good morning all brother have a nice day<span class="sendmessagetime">10:12 AM</span></span>
+            </div>
+          </div>
+
+          <div class="mysendmessage">
+            <span class="mysendtircon"></span>
+            <div class="mysendmessage1">
+              <span class="sendtext">Good morning all Family Member</span>
+              <span class="mysendmessagetime">10:12 AM</span>
+            </div>
+          </div>
+
+          <div class="sendchatmessage">
+            <span class="tircon"></span>
+            <div class="sendchatmessage1">
+              <span class="messgessendname">Papa G</span>
+              <span class="sendtext">Good morning have a nice day 🙏🙏🌺🌺👍👍<span class="sendmessagetime">10:12 AM</span></span>
+            </div>
+          </div>
+
+          <div class="sendchatmessage">
+            <span class="tircon"></span>
+            <div class="sendchatmessage1">
+              <span class="messgessendname">M Chacha1</span>
+              <span class="sendtext">Good morning all brother have a nice day<span class="sendmessagetime">10:12 AM</span></span>
+            </div>
+          </div>
+
+          <div class="mysendmessage">
+            <span class="mysendtircon"></span>
+            <div class="mysendmessage1">
+              <span class="sendtext">Good morning all Family Member</span>
+              <span class="mysendmessagetime">10:12 AM</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="chatsfullpage">
+        <div class="texttype">
+          <span class="emoji"><i class="far fa-grin"></i></span>
+          <input class="inputmessges" type="text" name="type" value="" placeholder="Message">
+          <span class="chatsmessgesicon"><i class="fa fa-paperclip"></i> &nbsp; &nbsp; <i class="fas fa-rupee-sign"></i> &nbsp; &nbsp; <i class="fa fa-camera"></i></span>
+        </div>
+        <div class="microbox">
+          <span class="micro"><i class="fas fa-microphone"></i></span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

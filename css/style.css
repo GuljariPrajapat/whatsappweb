@@ -260,11 +260,10 @@ a.chatsarrow {
 .chatsfullpage {
     position: fixed;
     top: auto;
-    height: 7%;
+    height: 8%;
     bottom: 0px;
     background: #e5ddd5;
     width: 100%;
-    margin-bottom: 3px;
 }
 .texttype {
     position: absolute;
@@ -275,7 +274,7 @@ a.chatsarrow {
     bottom: 0;
     margin-left: 1px;
     padding-top: 6px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 .emoji {
     font-size: 20px;
@@ -292,7 +291,7 @@ a.chatsarrow {
     right: 0;
     margin-right: 2px;
     padding-top: 9px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 .micro {
     padding-left: 16px;
@@ -340,8 +339,9 @@ a.chatsarrow {
     left: -9px;
 }
 .chatsmessges {
-    position: absolute;
+    position: relative;
     bottom: 54px;
+    padding-top: 60px;
 }
 .sendimage {
     width: 60%;
